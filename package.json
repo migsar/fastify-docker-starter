@@ -1,0 +1,16 @@
+{
+  "name": "fastify-docker-starter",
+  "version": "0.0.1",
+  "description": "Fastify for Docker starter code.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "dev": "node src/index.mjs",
+    "docker:build": "docker build -t fastify-docker:latest ."
+  },
+  "author": "Migsar Navarro <migsar.navarro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.9.2"
+  }
+}
